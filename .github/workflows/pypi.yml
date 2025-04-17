@@ -2,11 +2,11 @@ name: Publish to PYPI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ 6a3617c ]
     tags:
       - "v*"
   pull_request:
-    branches: [ master ]
+    branches: [ 6a3617c ]
 
 jobs:
   manylinux:
